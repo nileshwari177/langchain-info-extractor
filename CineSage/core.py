@@ -26,7 +26,7 @@ class MovieInfo(BaseModel):
     rating: Optional[str]
     soundtrack_composer: Optional[str]
     notable_features: Optional[List[str]]
-    short_summary: Optional[str]
+   
 
 
 parser = PydanticOutputParser(pydantic_object=MovieInfo)    
