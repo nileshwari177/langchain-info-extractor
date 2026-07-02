@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import List,Optional
 from langchain_core.output_parsers import PydanticOutputParser  
 
-import os
+
 
 load_dotenv()
 

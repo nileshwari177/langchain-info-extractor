@@ -5,7 +5,7 @@ from typing import List, Optional
 from langchain_core.output_parsers import PydanticOutputParser
 import streamlit as st
 import streamlit.components.v1 as components
-import os
+
 
 load_dotenv()
 
